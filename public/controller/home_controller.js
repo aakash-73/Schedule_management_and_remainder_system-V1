@@ -1,5 +1,4 @@
 import { ToDoTitle } from "../model/ToDoTitle.js";
-import { progressMessage } from "../view/progress_message.js";
 import { currentUser } from "./firebase_auth.js";
 import { addToDoTitle } from "./firestore_controller.js";
 import { TaskCard } from "../View/home_page.js"; // Verify this import path is correct
